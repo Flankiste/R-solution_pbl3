@@ -4,7 +4,7 @@
 class CLparcours
 {
     int index = 0;
-    char message()
+    char message();
     ajouterPoint();
     int calculDistance();
 }
