@@ -4,9 +4,10 @@
 class CLparcours
 {
     public:
-    
-    int index = 0;
-    char message();
-    int ajouterPoint();
-    int calculDistance();
+    CLparcours();
+    CLparcours(double);
+
+    virtual void ajouterPoint();
+    virtual float calculDistance();
+    virtual string message();
 };
