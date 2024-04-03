@@ -9,6 +9,7 @@
 #include "CLparcours3D.h"
 #include "CLpoint.h"
 #include "CLpoint3D.h"
+#include "CLpoint2D.h"
 
 #endif
 using namespace std;
