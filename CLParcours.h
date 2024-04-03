@@ -5,6 +5,6 @@ class CLparcours
 {
     int index = 0;
     char message();
-    ajouterPoint();
+    int ajouterPoint();
     int calculDistance();
-}
+};
