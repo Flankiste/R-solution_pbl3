@@ -1,9 +1,5 @@
 #include "pch.h"
-#include "CLParcours.h"
-#include "CLparcours2D.h"
-#include "CLparcours3D.h"
-#include "CLpoint.h"
-#include "CLpoint3D.h"
+
 
 
 void main(void)
@@ -23,7 +19,7 @@ void main(void)
     parcours -> ajouterPoint(p1);
     parcours -> ajouterPoint(p2);
     parcours -> ajouterPoint(p3);
-    cout << parcours ->calculDistance() << endl;
+    cout << parcours -> calculDistance() << endl;
     parcours ->message();
 
     pl = new CLpoint3D(0.0, 0.0, 0.0);
@@ -32,14 +28,14 @@ void main(void)
 
     parcours = new CLparcours3D(3);
 
-    parcours ->ajouterPoint(p1);
-    parcours ->ajouterPoint(p2);
-    parcours ->ajouterPoint(p3);
-    
-    cout << parcours ->calculDistance() << endl;
-    parcours->message;
+    parcours -> ajouterPoint(p1);
+    parcours -> ajouterPoint(p2);
+    parcours -> ajouterPoint(p3);
+
+    cout << parcours -> calculDistance() << endl;
+    parcours-> message;
     p1 = new CLpoint(0.0, 0.0);
     p2 = new CLpoint3D(1.0, 1.0, 1.0);
-    (p1 = p2) ->afficherCoordo();
+    (p1 = p2) -> afficherCoordo();
     cin >> pause;
 }
